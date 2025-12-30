@@ -5,7 +5,6 @@ const axios = require('axios');
 const app = express();
 const port = 3000;
 
-// כאן תדביקי את ה-API Key ששמרת (חשוב: המילה Bearer חייבת להישאר)
 const RENDER_API_KEY = 'rnd_ZCZZyPv72bDxjWbodpokNzMV2yyW';
 
 app.get('/my-apps', async (req, res) => {
